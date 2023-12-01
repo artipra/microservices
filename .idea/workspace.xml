@@ -4,30 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f89f7ea-9f47-4095-8ed2-30871325d273" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/audit/AuditAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/constants/AccountsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/dto/AccountsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/dto/CustomerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/entity/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/exception/CustomerAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/mapper/AccountsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/mapper/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/repository/AccountsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/service/IAccountsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/service/impl/AccountsServiceImpl.java" afterDir="false" />
+    <list default="true" id="7f89f7ea-9f47-4095-8ed2-30871325d273" name="Changes" comment="account microservice code adds">
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/audit/AuditAwareImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/constants/CardsConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/controller/CardsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/dto/CardsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/dto/ErrorResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/dto/ResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/entity/Cards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/exception/CardAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/mapper/CardMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/repository/CardsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/service/ICardsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/java/com/easybytes/cards/service/impl/CardsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/cards/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/Constants/LoansConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/LoansApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/audit/AuditAwareImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/controller/LoansController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/dto/ErrorResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/dto/LoansDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/dto/ResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/entity/Loans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/exception/LoanAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/mapper/LoansMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/repository/LoansRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/service/ILoansService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/java/com/easybytes/loans/service/impl/LoansServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2/loans/src/test/java/com/easybytes/loans/LoansApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section2/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section2/accounts/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/AccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/AccountsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/accounts/src/main/java/com/easybytes/accounts/controller/AccountsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,28 +85,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Arti/IdeaProjects/microservices/section2/loans/src/main/java/com/easybytes/loans",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.easybytes.loans.dto" />
+      <recent name="com.easybytes.loans.Constant" />
+      <recent name="com.easybytes.loans.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Arti\IdeaProjects\microservices\section2\loans\src\main\java\com\easybytes\loans" />
+      <recent name="C:\Users\Arti\IdeaProjects\microservices\section2\loans\src\main\resources" />
+      <recent name="C:\Users\Arti\IdeaProjects\microservices\section2\cards\src\main\resources" />
+      <recent name="C:\Users\Arti\IdeaProjects\microservices\section2\cards\src\main\java\com\easybytes\cards\dto" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.easybytes.loans.dto" />
+      <recent name="com.easybytes.loans.exception" />
+      <recent name="com.easybytes.loans.entity" />
+      <recent name="com.easybytes.cards.exception" />
+      <recent name="com.easybytes.cards.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LoansApplication">
     <configuration name="AccountsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="accounts" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.easybytes.accounts.AccountsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="cards" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.easybytes.cards.CardsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoansApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="loans" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.easybytes.loans.LoansApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,7 +163,8 @@
       <workItem from="1700993875745" duration="6136000" />
       <workItem from="1701268786925" duration="1046000" />
       <workItem from="1701312017571" duration="2420000" />
-      <workItem from="1701315103927" duration="18139000" />
+      <workItem from="1701315103927" duration="19951000" />
+      <workItem from="1701398426071" duration="16321000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -134,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700987191740</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="account microservice code adds">
+      <option name="closed" value="true" />
+      <created>1701355908904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701355908904</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +224,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="account microservice code adds" />
+    <option name="LAST_COMMIT_MESSAGE" value="account microservice code adds" />
   </component>
 </project>
