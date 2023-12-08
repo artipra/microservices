@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "configserver"
+  profiles:
+    active: native #I want to use native profile of spring cloud server
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: "file:///C://Users//Arti//IdeaProjects//config"
+
+server:
+  port: 8071
